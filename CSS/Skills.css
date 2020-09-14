@@ -1,0 +1,107 @@
+/*
+    Colors :
+    	White : #e8e2db
+        Yellow : #fab95b
+        Red : #f5564e
+        Blue : #1a3263
+    Dark Mode :
+        Black : #373331
+        Grey : #605a56
+        Green : #80ac7b
+        Light Yellow : #e8eaa1
+*/
+body {
+    margin: 0;
+    font-family: "Forte";
+    letter-spacing: 2px;
+    background-image: url(../Images/desk.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    perspective: 800px;
+    height: 768px;
+    display: flex;
+    align-content: center;
+    overflow: hidden
+}
+nav {
+    margin-left: 36%;
+}
+nav ul {
+    list-style: none;
+    background-color: #1a3263;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E4E3E3;
+}
+nav ul li:hover {
+    border-bottom: 3px solid #f5564e;
+}
+nav ul .skills {
+    background-color: #f5564e;
+}
+nav ul .skills:hover {
+    background-color: #f5564e;
+}
+.cover {
+    width: 322px;
+    height:  440px;
+    position: absolute;
+    left: 496px;
+    top: 100px;
+    margin-bottom: 0;
+    overflow: hidden
+}
+.paper {
+    width: 322px;
+    height:  440px;
+    margin: 0
+}
+.paper-1 {
+    left: 4px;
+    position: relative;
+    cursor: pointer
+}
+.paper-2 {
+    position: relative;
+    bottom: 444px;
+    left: 2px;
+    cursor: pointer
+}
+.paper-3 {
+    position: relative;
+    bottom: 888px;
+    cursor: pointer;
+}
+.paper-1 h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #1a3263
+}
+@keyframes papers {
+    0%{right: 0}
+    20%{right: 66px}
+    40%{right: 124px}
+    60%{right: 190px}
+    80%{right: 256px}
+    100%{right: 330px}
+}
+@keyframes papers2 {
+    0%{left: 0}
+    20%{left: 66px}
+    40%{left: 124px}
+    60%{left: 190px}
+    80%{left: 256px}
+    100%{left: 330px}
+}

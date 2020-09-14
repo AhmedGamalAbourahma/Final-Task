@@ -1,0 +1,79 @@
+/*
+    Colors :
+    	White : #e8e2db
+        Yellow : #fab95b
+        Red : #f5564e
+        Blue : #1a3263
+    Dark Mode :
+        Black : #373331
+        Grey : #605a56
+        Green : #80ac7b
+        Light Yellow : #e8eaa1
+*/
+body {
+    margin: 0;
+    font-family: "Forte";
+    letter-spacing: 2px;
+    background-color: #1a3263
+}
+nav {
+    margin-left: 36%;
+}
+nav ul {
+    list-style: none;
+    background-color: #1a3263;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 7px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E4E3E3;
+}
+nav ul li:hover {
+    border-bottom: 3px solid #f5564e;
+}
+nav ul .contact {
+    background-color: #f5564e;
+}
+nav ul .contact:hover {
+    background-color: #f5564e;
+}
+table {
+    margin: 100px auto;
+    text-align: center;
+    background-color: #fab95b
+}
+table td {
+    padding: 20px 30px;
+    background-color: #f5564e; 
+    color: #E4E3E3;
+}
+table td a {
+    text-decoration: none;
+    color: #E4E3E3;
+}
+.head td {
+    background-color: #373331
+}
+.facebook {
+    background-color: #4267B2
+}
+.linkeden {
+    background-color: #0e76a8
+}
+.whatsapp {
+    background-color: #128C7E
+}
+.twitter {
+    background-color:#00acee
+}
+.insta {
+    background-color: #405DE6
+}
